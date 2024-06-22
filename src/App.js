@@ -7,12 +7,12 @@ function App() {
   return (
 
 
-    <Router>
+   
       <Routes>
         <Route exact path='/' element={<Weather/>}></Route>
         <Route path='/another-city' element={<AnotherCity/>}></Route>
       </Routes>
-    </Router>
+    
 
 
   
